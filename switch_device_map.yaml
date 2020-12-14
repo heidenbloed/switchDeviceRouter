@@ -1,0 +1,66 @@
+switches:
+  f6a37216986147c5b12b0754d52d0a38:
+    - turnoff schlafzimmerlampe
+    - turnoff lichterkette
+    - turnoff balkonOne
+    - turnoff balkonTwo
+  80d0d339b9d849bd84753c107752e375:
+    - toggle schlafzimmerlampe
+  3ecb4df2a9074da9b6d8cfd5ccd8a079:
+    - toggle loetlampe
+  a5e1a76f002d479b98e0dd82c6c0261a:
+    - toggle tvlampe
+    - toggle tanzlampe
+  61810bc7ab94447a96fb766c5388682c:
+    - toggle tvlampe
+    - toggle tanzlampe
+  90ed7b2fc35de44f73afcb0720079e6b:
+    - toggle loetlampe
+
+devices:
+  schlafzimmerlampe:
+    type: yeelight
+    available_actions:
+      - toggle
+      - turnon
+      - turnoff
+  tvlampe:
+    type: yeelight
+    available_actions:
+      - toggle
+      - turnon
+      - turnoff
+  tanzlampe:
+    type: yeelight
+    available_actions:
+      - toggle
+      - turnon
+      - turnoff
+  loetlampe:
+    type: yeelight
+    available_actions:
+      - toggle
+      - turnon
+      - turnoff
+  lichterkette:
+    type: tuya
+    available_actions:
+      - turnon
+      - turnoff
+  balkonOne:
+    type: tuya
+    topic: balkon/dps/1
+    available_actions:
+      - turnon
+      - turnoff
+  balkonTwo:
+    type: tuya
+    topic: balkon/dps/2
+    available_actions:
+      - turnon
+      - turnoff
+  drucker:
+    type: tuya
+    available_actions:
+      - turnon
+      - turnoff
