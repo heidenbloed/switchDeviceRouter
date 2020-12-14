@@ -1,4 +1,5 @@
-mqtt_server: <mqtt_server>
+mqtt_host: <mqtt_host>
+mqtt_port: <mqtt_port>
 mqtt_user: <mqtt_user>
 mqtt_password: <mqtt_password>
 switch_topic: "home/switches/"
