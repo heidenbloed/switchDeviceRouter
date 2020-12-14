@@ -1,0 +1,6 @@
+mqtt_server: <mqtt_server>
+mqtt_user: <mqtt_user>
+mqtt_password: <mqtt_password>
+switch_topic: "home/switches/"
+yeelight_topic: "home/lamp/yeelight"
+tuya_topic: "tuya"
