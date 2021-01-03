@@ -4,9 +4,9 @@ After=multi-user.target
 
 [Service]
 Type=simple
-User=tim
-ExecStart=/home/tim/git/switchDeviceRouter/switchdevicerouter.py
-WorkingDirectory=/home/tim/git/switchDeviceRouter
+User=USERNAME
+ExecStart=HOMEDIR/git/switchDeviceRouter/switchdevicerouter.py
+WorkingDirectory=HOMEDIR/git/switchDeviceRouter
 StandardOutput=syslog
 StandardError=syslog
 Restart=always
